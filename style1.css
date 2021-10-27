@@ -1,0 +1,48 @@
+nav{
+    color: white;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    background-color: #18a18b;
+}
+
+li,div,a{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+}
+.fixed ul{
+    list-style: none;
+    position: relative;
+    margin-top: 8px;
+}
+.fixed ul li{
+    width: 150px;
+    float: left;
+}
+.fixed a{
+    display: block;
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: #00cba9;
+    border-color: #00cba9;
+}
+
+#msg{
+    height: 150px;
+}
+
+.svg{
+    margin-top: 0;
+}
